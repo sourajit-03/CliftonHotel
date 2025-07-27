@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CliftonHotel.css" />
+  <title>Clifton Hotel & Resort</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body onload="hotel()">
+  <div class="user-nav1">
+    <a id="logo" href="#"><span>envato</span>market</a>
+    <div class="nav-button">
+      <button><a class="buyme" href="#">Buy me</a></button>
+    </div>
+  </div>
+
+  <div class="containerone">
+    <div class="container-text">
+      <span><i class="fa-regular fa-star"></i></span>
+      <span><i class="fa-regular fa-star"></i></span>
+      <span><i class="fa-regular fa-star"></i></span>
+      <span><i class="fa-regular fa-star"></i></span>
+      <span><i class="fa-regular fa-star-half-stroke"></i></span>
+      <h1>Clifton Hotel & Resort</h1>
+      <p>Experience nature in its purest form, while enjoying</p>
+      <p>attention to detail, indulgent pampering and</p>
+      <p>exceptional cuisine.</p>
+    </div>
+  </div>
+
+  <div class="second-nav">
+    <div class="nav-logos">
+      <a href=""><img src="images/pic10.png" alt="" /></a>
+      <p>Hotel & Resort</p>
+    </div>
+    <div class="nav-text">
+      <ul>
+        <li><a class="user-link" href="">Home</a></li>
+        <li><a class="user-link" href="">Rooms</a></li>
+        <li><a class="user-link" href="">Reservation</a></li>
+        <li><a class="user-link" href="">About</a></li>
+        <li><a class="user-link" href="">Deals</a></li>
+        <li><a class="user-link" href="">Contact</a></li>
+        <li>
+          <a class="user-link" href=""><i class="fa-solid fa-arrow-up-right-from-square"></i>Blog</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <hr />
+  <!------------------------------------------------->
+  <div class="reservation-section">
+    <fieldset id="field">
+      <h2 class="form-title">Room Reservation</h2>
+      <form class="reservation-form" onsubmit="  return fun()">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" >
+            <span id="textEr"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" >
+            <span id="emailEr"></span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" >
+            <span id="numEr"></span>
+          </div>
+          <div class="form-group">
+            <label for="room">Room</label>
+            <select id="room" >
+              <option>Double Deluxe</option>
+              <option>Single</option>
+              <option>Suite</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="arrival">Arrival Date</label>
+            <input type="date" id="arrival" >
+          </div>
+          <div class="to-text">to</div>
+          <div class="form-group">
+            <label for="departure">Departure Date</label>
+            <input type="date" id="departure" >
+          </div>
+          <div class="form-group">
+            <label for="adults">Adults</label>
+            <select id="adults" >
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="children">Children</label>
+            <select id="children" >
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+            </select>
+          </div>
+          <div class="form-group submit-group">
+            <button type="submit">SUBMIT</button>
+          </div>
+        </div>
+      </form>
+    </fieldset>
+  </div>
+
+
+
+
+
+  <!------------------------------------------>
+
+  <div class="container22">
+    <h1>The <em>Grand</em> Hotel</h1>
+    <p class="brief-des">We have been a family business since 1982, striving <br>relentlessly for unparalleled customer
+      satisfaction.</p>
+
+    <div class="first-row flex-row">
+      <div class="card11">
+        <div class="imag">
+          <img src="images/pic15.jpg" alt="">
+        </div>
+        <h3>24/7 Concierge Service</h3>
+        <p>This is consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas
+          modern forte elementum vehicula.</p>
+      </div>
+
+      <div class="image-box">
+        <img src="images/pic9.jpg" alt="Island">
+      </div>
+
+      <div class="card22">
+        <div class="imag">
+          <img src="images/pic11.jpg" alt="">
+        </div>
+        <h3>Pool & Spa</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+
+    <div class="second-row flex-row">
+      <div class="card33">
+        <div class="imag">
+          <img src="images/pic17.jpg" alt=" dumbel logo">
+        </div>
+        <h3>Fully Equipped <br>Gym</h3>
+        <p>This is consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec.</p>
+      </div>
+
+      <div class="card44">
+        <div class="imag">
+          <img src="images/pic12.jpg" alt="">
+        </div>
+        <h3>2 Michelin Stars Cooking</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+
+      <div class="card55">
+        <div class="imag">
+          <img src="images/pic16.jpg" alt="">
+        </div>
+        <h3>Safes in All <br>Rooms</h3>
+        <p>This is consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas
+          modern forte elementum vehicula.</p>
+      </div>
+
+      <div class="card66">
+        <div class="imag">
+          <img src="images/pic14.jpg" alt="">
+        </div>
+        <h3>Snorkling Lessons</h3>
+        <p>This is consequat luctus at justo auctor metus est donec. Tempus terminal morbi nulla donec elite maecenas
+          modern forte elementum vehicula.</p>
+      </div>
+    </div>
+  </div>
+
+  <!----------------------------------------------->
+
+  <hr>
+  <div class="award-section">
+    <div class="award-content">
+      <h3>Travellers' Choice 2013–2016</h3>
+      <p class="award-sub">Awards</p>
+      <img src="images/pic19.png" alt="Tripadvisor Logo" class="award-logo">
+    </div>
+  </div>
+  <hr>
+
+
+  <!---------------------------------------------->
+  <div class="container">
+    <h1>Our Deals</h1>
+    <p class="subtitle">
+      Get your favorite deals and save big on your next dream <br />
+      vacation.
+    </p>
+
+    <div class="cards">
+      <div class="card1">
+        <img src="images/pic2.jpg" alt="Snorkling for Two" />
+        <h2 class="headline">Snorkling for Two</h2>
+        <div class="price1">
+          <span class="dollar">$</span>
+          <span class="new-price">229</span>
+        </div>
+
+        <p class="booked">
+          <strike id="strike">February 12</strike>
+          Fully Booked!
+        </p>
+        <div class="info">
+          <p>April 20-21</p>
+          <p>May 4</p>
+          <p>May 15</p>
+        </div>
+        <button>BOOK NOW</button>
+      </div>
+
+      <div class="card2">
+        <img src="images/pic1.jpg" alt="Romantic Getaway" />
+        <p class="most-popular">MOST POPULAR</p>
+        <h2 class="headline">Romantic Getaway</h2>
+        <div class="price2">
+          <span class="dollar">$</span>
+          <span class="new-price">489</span>
+        </div>
+        <div class="info">
+          <p>Free Champagne</p>
+          <p>Roses & Candles</p>
+          <p>Grand Luxury Suite with Beach View</p>
+          <p>Exclusive Boat Trip</p>
+        </div>
+        <button>BOOK NOW</button>
+      </div>
+
+      <div class="card3">
+        <img src="images/pic3.jpg" alt="Ultimate Package" />
+        <h2 class="headline">Ultimate Package</h2>
+        <div class="price3">
+          <span class="dollar">$</span>
+          <span class="new-price">1.149</span>
+        </div>
+        <div class="info">
+          <p>Everything You Need</p>
+          <p>Buffet Included</p>
+          <p>All Drinks and Alcoholic Beverages</p>
+          <p>Fishing Trips</p>
+        </div>
+        <button>BOOK NOW</button>
+      </div>
+    </div>
+  </div>
+<!------------------------------------------------>
+<hr>
+<div class="contact-section">
+  <div class="contact-header">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feedback or would like to book a trip, please contact us. We'll get back to you asap!</p>
+  </div>
+
+  <div class="contact-content">
+    <div class="contact-item">
+      <img src="images/pic21.png" alt="Address Icon" class="contact-icon">
+      <h4>ADDRESS</h4>
+      <p>Oceanview Dr 103<br>Malé 20292<br>Maldives</p>
+    </div>
+
+    <div class="contact-item">
+      <img src="images/pic22.png" alt="Phone Icon" class="contact-icon">
+      <h4>PHONE/FAX</h4>
+      <p>(845) 123-456 0<br>(845) 123-456 78</p>
+    </div>
+
+    <div class="contact-item">
+      <img src="images/pic23.png" alt="Email Icon" class="contact-icon">
+      <h4>EMAIL</h4>
+      <p><a href="mailto:info@cliftonhotel.com">info@cliftonhotel.com</a></p>
+    </div>
+
+    <div class="contact-item">
+      <img src="images/pic24.png".png" alt="Social Icon" class="contact-icon">
+      <h4>SOCIAL</h4>
+      <p>Connect with Us:</p>
+      <div class="social-icons">
+        
+         <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-vimeo-v"></i>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!---------------------------------------------->
+  <div class="upper-footer">
+    <img src="images/bg-logo-white.png" alt="" />
+  </div>
+  <div class="footer">
+    <div class="inner-footer">
+      <div class="first-para">
+        <p>© 2017, Clifton Hotel. All Rights Reserved.</p>
+      </div>
+      <div class="second-para">
+        <p>Made with <i class="fa-solid fa-heart"></i> by weibergmedia</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="CliftonHotel.js"></script>
+</body>
+
+</html>
